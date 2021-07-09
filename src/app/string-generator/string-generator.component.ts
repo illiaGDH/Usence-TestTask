@@ -30,7 +30,7 @@ export class StringGeneratorComponent implements OnInit {
         // розкоментуйте, щоб впевнитись,
         // що поліндроми та числа підсвічуються своїми кольорами
 
-        // let value = '55555';
+        // let value = '12345';
         // let value = 'absba';
         // ****************************************************
 
