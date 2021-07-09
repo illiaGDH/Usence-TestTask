@@ -1,0 +1,33 @@
+.string-generator {
+  display: flex;
+  flex-direction: column;    
+
+  height: 10rem;
+  max-width: 80rem;
+  width: 100%;
+
+  padding: 1em 1.5em;
+
+  background-color: #fff;
+  border-radius: .5rem;
+  box-shadow: 0 0 .5rem .3rem rgb(231, 231, 231);
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;   
+  }
+
+  &__input {
+    margin-right: 1em;
+  }
+}
+
+.item {
+  &_red {
+    color: red;
+  }
+  &_blue {
+    color: blue;
+  }
+}

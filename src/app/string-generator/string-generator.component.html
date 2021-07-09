@@ -1,1 +1,14 @@
-<p>string-generator works!</p>
+<div class="string-generator__container">
+  <div class="string-generator">
+    <h2 class="title string-genrator__title">How much strings you want to generate?</h2>
+    <form #generator (ngSubmit)="generate()">
+      <mat-form-field class="string-generator__input">
+        <input matInput [(ngModel)]="strAvg" placeholder="number..." type="number" min="0" name="generator">
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="primary" [disabled]="strAvg < 1">generate</button>
+    </form>
+    <mat-list>
+      <mat-list-item *ngFor="let string of strings" [ngClass]="string.class">{{string.value}}</mat-list-item>
+    </mat-list>
+  </div>
+</div>

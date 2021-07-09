@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+
+  padding: 50px 15px;
+}
+
+.title {
+  &_main {
+    font-size: 4.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.main-title {
+  &__container {
+    margin-bottom: 5em;
+  }
+}
